@@ -1,0 +1,21 @@
+{
+    "name": "enzodellappe/bienesraices",
+    "description": "Creando con poo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "enzodellape",
+            "email": "enzodellape@gmil.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\":"./models",
+            "MVC\\":"./",
+            "Controllers\\":"./controllers"
+        }
+    }
+}
